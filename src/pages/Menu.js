@@ -33,7 +33,7 @@ class Menu extends Component {
         return (
             <div>
                 <Title>
-                    Menu Principal mas pijudo
+                    Menu Principal mas pijudo!!!
                 </Title>
                 <br />
                 <button onClick={()=>this.cerrarSesion}>Cerrar Sesion</button>
