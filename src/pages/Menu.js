@@ -2,6 +2,7 @@ import Title from '../components/title';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Cookies from 'universal-cookie';
+import ShoppingCart from '../components/ShoppingCart'
 
 const cookies = new Cookies();
 
@@ -36,6 +37,7 @@ class Menu extends Component {
                     ¡¡¡Menu Principal mas pijudo!!!
                     hola chiche
                 </Title>
+                <ShoppingCart/>
                 <br />
                 <button onClick={()=>this.cerrarSesion}>Cerrar Sesion</button>
             </div>
